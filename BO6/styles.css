@@ -1,0 +1,32 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+#button-container {
+  margin-top: 20px;
+}
+
+.number-button {
+  padding: 0;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.number-button img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+.number-button.active {
+  background-color: #007BFF;
+  color: white;
+}
